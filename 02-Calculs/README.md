@@ -5,21 +5,24 @@
 S'entraîner aux additions et multiplications basiques à travers un petit jeu en console.
 
 ## ⚙️ Fonctionnement
-1. Affichage d’un menu permettant de choisir entre :  
-   - [1] Addition  
-   - [2] Multiplication  
+1. Un message de bienvenur s'affiche. Appuyez sur entrée pour continuer.
+2. Affichage d’un menu permettant de choisir entre :  
+   - [1] Addition
+   - [2] Soustractions
+   - [3] Multiplication  
    - [0] Quitter  
-2. En fonction du choix :  
+3. En fonction du choix :  
    - [1] Un calcul d’addition simple s’affiche  
-   - [2] Un calcul de multiplication simple s’affiche  
+   - [2] Un calcul de soustraction simple s’affiche
+   - [3] Un calcul de multiplication simple s'affiche
    - [0] Le message *« Au revoir ! »* s’affiche  
-3. Selon le cas sélectionné :  
-   - [1] ou [2] : saisie du résultat  
+4. Selon le cas sélectionné :  
+   - [1], [2] ou [3] : saisie du résultat  
    - [0] : arrêt du programme  
-4. Pour les cas [1] et [2], selon la réponse donnée :  
+5. Pour les cas [1], [2] ou [3], selon la réponse donnée :  
    - Si la réponse est correcte → affichage du message *« Bravo ! »*  
    - Si la réponse est incorrecte → affichage du résultat attendu  
-5. Le menu est ensuite réaffiché pour un nouvel essai.
+6. Le menu est ensuite réaffiché pour un nouvel essai.
 
 ## 📌 Consigne
 Un ticket d’incident m’a été confié concernant ce programme :  
