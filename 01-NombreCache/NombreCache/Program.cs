@@ -13,6 +13,19 @@ namespace NombreCache
             int valeur = 0, essai = 0, nombre = 1;
             bool correct;
 
+            // message de bienvenue
+            Console.WriteLine("══════════════════════════════════════════════");
+            Console.WriteLine("     Bienvenue au jeu du Nombre Caché !");
+            Console.WriteLine("══════════════════════════════════════════════");
+            Console.WriteLine("\nLe but du jeu est simple :");
+            Console.WriteLine("- Un premier joueur choisit un nombre");
+            Console.WriteLine("- Un deuxième joueur doit le deviner");
+            Console.WriteLine("- Des indices seront donnés à chaque essai");
+            Console.WriteLine();
+            Console.WriteLine("Appuyez sur Entrée pour commencer...");
+            Console.ReadLine();
+            Console.Clear();
+
             // saisie du nombre à chercher
             correct = false;
             while (!correct)
