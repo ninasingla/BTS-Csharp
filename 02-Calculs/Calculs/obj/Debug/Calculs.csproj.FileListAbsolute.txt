@@ -5,3 +5,11 @@ G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.csprojAssemblyRef
 G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.csproj.CoreCompileInputs.cache
 G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.exe
 G:\test\testVisualStudio2019\Calculs\Calculs\obj\Debug\Calculs.pdb
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\bin\Debug\Calculs.exe.config
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\bin\Debug\Calculs.exe
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\bin\Debug\Calculs.pdb
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\obj\Debug\Calculs.csproj.AssemblyReference.cache
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\obj\Debug\Calculs.exe.config
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\obj\Debug\Calculs.csproj.CoreCompileInputs.cache
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\obj\Debug\Calculs.exe
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\02-Calculs\Calculs\obj\Debug\Calculs.pdb
