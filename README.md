@@ -1,6 +1,9 @@
 # BTS-Csharp
 Ce dépôt regroupe l’ensemble des exercices C# réalisés dans le cadre de ma formation **BTS SIO – SLAM**.  
 *(Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers)*
+> Dans ce dépôt, les commits précédés d'une étoile (*) sont des modifications du programme réalisées de ma propre initiative.  
+> Les autres commits correspondent à la mise en oeuvre de l'exercice, selon la consigne donnée.
+
 
 ## 🎯 Objectif
 
