@@ -9,9 +9,8 @@ namespace NombreCache
     {
         static void Main(string[] args)
         {
-            // déclaration
-            int valeur = 0, essai = 0, nombre = 1;
-            bool correct;
+            // déclaration de la variable pour rejouer
+            string rejouer;
 
             // message de bienvenue
             Console.WriteLine("══════════════════════════════════════════════");
@@ -26,52 +25,31 @@ namespace NombreCache
             Console.ReadLine();
             Console.Clear();
 
-            // saisie du nombre à chercher
-            correct = false;
-            while (!correct)
+            do
             {
-                try
-                {
-                    Console.Write("Entrez le nombre à chercher : ");
-                    valeur = int.Parse(Console.ReadLine());
-                    correct = true;
-                }
-                catch
-                {
-                    Console.WriteLine("Erreur de saisie : saisissez un nombre entier");
-                }
-            }
-            Console.Clear();
+                // déclaration
+                int valeur = 0, essai = 0, nombre = 1;
+                bool correct;
 
-            // saisie du premier essai
-            correct = false;
-            while (!correct)
-            {
-                try
+                // saisie du nombre à chercher
+                correct = false;
+                while (!correct)
                 {
-                    Console.Write("Entrez un essai : ");
-                    essai = int.Parse(Console.ReadLine());
-                    correct = true;
+                    try
+                    {
+                        Console.Write("Entrez le nombre à chercher : ");
+                        valeur = int.Parse(Console.ReadLine());
+                        correct = true;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("\nErreur de saisie : saisissez un nombre entier");
+                        Console.WriteLine();
+                    }
                 }
-                catch
-                {
-                    Console.WriteLine("Erreur de saisie : saisissez un nombre entier");
-                }
-            }
+                Console.Clear();
 
-            // boucle sur les essais
-            while (essai != valeur)
-            {
-                // test de l'essai par rapport à la valeu à chercher
-                if (essai > valeur)
-                {
-                    Console.WriteLine(" --> trop grand !");
-                }
-                else
-                {
-                    Console.WriteLine(" --> trop petit !");
-                }
-                // saisie d'un nouvel essai
+                // saisie du premier essai
                 correct = false;
                 while (!correct)
                 {
@@ -83,16 +61,54 @@ namespace NombreCache
                     }
                     catch
                     {
-                        Console.WriteLine("Erreur de saisie : saisissez un nombre entier");
+                        Console.WriteLine("\nErreur de saisie : saisissez un nombre entier");
+                        Console.WriteLine();
                     }
                 }
-                // compteur d'essai
-                nombre++;
+
+                // boucle sur les essais
+                while (essai != valeur)
+                {
+                    // test de l'essai par rapport à la valeu à chercher
+                    if (essai > valeur)
+                    {
+                        Console.WriteLine("\n --> trop grand !");
+                    }
+                    else
+                    {
+                        Console.WriteLine("\n --> trop petit !");
+                    }
+                    // saisie d'un nouvel essai
+                    correct = false;
+                    while (!correct)
+                    {
+                        try
+                        {
+                            Console.Write("\nEntrez un nouvel essai : ");
+                            essai = int.Parse(Console.ReadLine());
+                            correct = true;
+                        }
+                        catch
+                        {
+                            Console.WriteLine("\nErreur de saisie : saisissez un nombre entier");
+                        }
+                    }
+                    // compteur d'essai
+                    nombre++;
+                }
+
+                // valeur trouvée
+                Console.WriteLine("\nBravo ! Vous avez trouvé en " + nombre + " fois !");
+
+                // rejouer ? 
+                Console.WriteLine("\nVoulez-vous rejouer ? (o/n)");
+                rejouer = Console.ReadLine().ToLower();
+                Console.Clear();
             }
+            while (rejouer == "o" || rejouer == "oui");
 
-            // valeur trouvée
-            Console.WriteLine("Bravo ! Vous avez trouvé en " + nombre + " fois !");
-
+            // message de fin
+            Console.WriteLine("Merci d'avoir joué !");
             Console.ReadLine();
         }
     }
