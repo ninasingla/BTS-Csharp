@@ -1,7 +1,7 @@
 # Calculs
 **Exercice 2**
 
-## 🎯 Program goal
+## 🎯 But du programme
 S'entraîner aux additions et multiplications basiques à travers un petit jeu en console.
 
 ## ⚙️ Fonctionnement
