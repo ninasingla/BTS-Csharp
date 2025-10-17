@@ -23,7 +23,7 @@ S'entraîner aux additions et multiplications basiques à travers un petit jeu e
 
 ## 📌 Consigne
 Un ticket d’incident m’a été confié concernant ce programme :  
-- **Erreur 1** : Si un chiffre autre que ceux proposés est saisi, le programme exécute une multiplication au lieu d’afficher *« Erreur de saisie »* et de réafficher le menu.  
+- **Erreur 1** : Si un chiffre autre que ceux proposés dans le menu est saisi, le programme exécute une multiplication au lieu d’afficher *« Erreur de saisie »* et de réafficher le menu.  
 - **Erreur 2** : Si une lettre ou un nombre réel est saisi dans le menu, le programme s’arrête brutalement au lieu d’afficher *« Erreur de saisie »* et de réafficher le menu.  
 - **Erreur 3** : Lors de la saisie d’un résultat, si une lettre ou un nombre réel est entré, le programme s’arrête brutalement au lieu d’afficher *« Erreur de saisie : veuillez saisir un nombre entier »* et de redemander une saisie.  
 
