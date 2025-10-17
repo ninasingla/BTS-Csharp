@@ -1,0 +1,8 @@
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\obj\Debug\NombreCache.csproj.AssemblyReference.cache
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\obj\Debug\NombreCache.csproj.CoreCompileInputs.cache
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\bin\Debug\NombreCache.exe.config
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\bin\Debug\NombreCache.exe
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\bin\Debug\NombreCache.pdb
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\obj\Debug\NombreCache.exe
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\obj\Debug\NombreCache.pdb
+C:\Users\ninas\Documents\GitHub\BTS-Csharp\01-NombreCache\NombreCache\obj\Debug\NombreCache.exe.config
